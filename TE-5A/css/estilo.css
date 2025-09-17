@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+  color: #2a4d32;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.afiche {
+  background: rgb(229, 238, 197);
+  background-image:url("https://images.unsplash.com/photo-1631891607843-2533fabb1c34?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+  background-size: cover;
+  background-position: center;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px 50px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #1b4332;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #40916c;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #2a4d32;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a8d5ba;
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+
+p,
+li {
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+ul li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  color: #52796f;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.tip {
+  color: #1b4332;
+  font-weight: 700;
+}
+
+.imagen {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: block;
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+  max-height: 300px;
+}
+
+.tm{
+      position: relative;
+      background-image: url('https://plus.unsplash.com/premium_photo-1663962975773-44cfbefe880b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9uZG8lMjBkZSUyMGhvamFzfGVufDB8fDB8fHww'); /* Reemplaza con la URL de tu imagen */
+      background-size: cover;
+      background-position: center;
+      color: white; /* Cambia si tu fondo es claro */
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+}
+div{
+      background-color: #92a352;
+      border: 2px solid #636851;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 600px;
+      margin: 30px auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+}
+div h3{
+      margin-top: 0;
+      color: #6e8660d2;
+}
+div p{
+   margin-top: 0;
+   color: #c2e2af;
+}
+@media (max-width: 600px) {
+  .afiche {
+    padding: 25px 20px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+  }
+  p, li {
+    font-size: 1rem;
+  }
+}
